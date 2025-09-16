@@ -8,7 +8,7 @@ const AddProduct = () => {
      const handleSubmit = (e) => {
   e.preventDefault();
   axios
-   .post(`http://localhost:5241/products`, { name, description })
+   .post(`http://localhost:5107/products`, { name, description })
    .then((res) => {
     setName('');
     setDescription('');
