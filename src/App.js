@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import AddProduct from './components/AddProduct';
 
-function App() {
+const App = () => {
   return (
    <>
       <Routes>
